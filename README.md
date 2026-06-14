@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/28931524/README.md)
 # Lab 01 — Active Directory & Identity Management
 
-WATCH ME BUILD IT HERE --> https://www.loom.com/share/32130a203d8243b1be794fc8bf463514
+WATCH ME BUILD IT HERE https://www.loom.com/share/32130a203d8243b1be794fc8bf463514
 
 **Platform:** Windows Server 2025 · Azure Free Account  
 **Domain:** `lab.local`  
