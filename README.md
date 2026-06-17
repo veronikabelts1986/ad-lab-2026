@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/28931524/README.md)
 # Lab 01 — Active Directory & Identity Management
 
-WATCH ME BUILD IT HERE https://www.canva.com/design/DAHMmnDvULk/6-i1WhBaiVDPY44V49rj2g/watch?utm_content=DAHMmnDvULk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd2695f21c4
+WATCH ME BUILD IT HERE https://canva.link/lab1-ad
 
 **Platform:** Windows Server 2025 · Azure Free Account  
 **Domain:** `lab.local`  
