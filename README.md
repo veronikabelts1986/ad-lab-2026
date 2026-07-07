@@ -24,7 +24,6 @@ Active Directory is the identity backbone of virtually every enterprise Windows 
 ## Architecture
 
 ```
-![Architecture Diagram](ad-ds-lab1.png)
 ┌─────────────────────────────────────────────────────────────┐
 │  ☁  Azure Free Tier                                          │
 │                                                             │
