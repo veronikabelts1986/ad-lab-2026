@@ -1,5 +1,4 @@
-
-# Lab 01 — Active Directory & Identity Management
+<img width="2000" height="2000" alt="architecture lab 1" src="https://github.com/user-attachments/assets/43b9b9fb-17e4-4fc7-ae37-76292ecfa7bb" /># Lab 01 — Active Directory & Identity Management
 
 WATCH ME BUILD IT HERE https://canva.link/lab1-ad
 
@@ -23,7 +22,8 @@ Active Directory is the identity backbone of virtually every enterprise Windows 
 
 ## Architecture
 
-<img width="541" height="457" alt="ad-ds-lab1" src="https://github.com/user-attachments/assets/0cff0d3b-78e7-48ca-bd16-9375a81a1af6" />
+
+<img width="2000" height="2000" alt="architecture lab 1" src="https://github.com/user-attachments/assets/1471a060-d0d4-4e35-b828-cd02f9b4b0d5" />
 
 
 
