@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/28931524/README.md)
+
 # Lab 01 — Active Directory & Identity Management
 
 WATCH ME BUILD IT HERE https://canva.link/lab1-ad
@@ -23,40 +23,10 @@ Active Directory is the identity backbone of virtually every enterprise Windows 
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  ☁  Azure Free Tier                                          │
-│                                                             │
-│        ┌──────────────────────────────────────┐            │
-│        │   Domain Controller (DC)             │            │
-│        │   Windows Server 2025 · lab.local    │            │
-│        │   AD DS · DNS · GPMC                 │            │
-│        └──────────────────┬───────────────────┘            │
-│                           │                                 │
-│        ┌──────────────────▼───────────────────┐            │
-│        │  Organisational Units — lab.local     │            │
-│        │  ┌────────┐ ┌─────────┐ ┌────┐ ┌────┐│            │
-│        │  │  IT    │ │ Finance │ │ HR │ │Sale││            │
-│        │  │IT_Admin│ │Fin_Users│ │HR_U│ │S_U ││            │
-│        │  │a.chen  │ │b.patel  │ │c.jo│ │d.sm││            │
-│        │  │GPO ✓   │ │         │ │    │ │    ││            │
-│        │  └────────┘ └─────────┘ └────┘ └────┘│            │
-│        └──────────────────┬───────────────────┘            │
-│                           │                                 │
-│        ┌──────────────────▼───────────────────┐            │
-│        │  Group Policy Objects (GPOs)          │            │
-│        │  Password · Screen lock · USB block   │            │
-│        └──────────────────┬───────────────────┘            │
-│                           │                                 │
-│        ┌──────────────────▼───────────────────┐            │
-│        │  Domain-joined Workstation            │            │
-│        │  Receives GPO · Authenticates via DC  │            │
-│        └──────────────────────────────────────┘            │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-                               ▲
-                   RDP (TCP 3389) from local machine
-```
+<img width="541" height="457" alt="ad-ds-lab1" src="https://github.com/user-attachments/assets/0cff0d3b-78e7-48ca-bd16-9375a81a1af6" />
+
+
+
 
 **Trust boundary:** All identity decisions flow through the Domain Controller. Every domain-joined machine trusts the DC to authenticate users and enforce policy. The only external access point is RDP on port 3389, used to manage the server from a local client.
 
